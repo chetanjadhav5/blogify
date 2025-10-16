@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+gpiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend-deployment
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: trainwithshubham/wanderlust-backend-beta:v2.1
+          image: yourjarviss/blogify_backend:1.1
           ports:
             - containerPort: 8080
 ---
